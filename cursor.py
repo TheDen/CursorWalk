@@ -2,16 +2,16 @@
 
 import random
 import pyautogui
+pyautogui.FAILSAFE =  False
 
-x = pyautogui.position()[0]
-y = pyautogui.position()[1]
-step = random.randrange(5)
 stepsize = 10
 speed =  0.01
 while True:
+
  x = pyautogui.position()[0]
  y = pyautogui.position()[1]
  step = random.randrange(5)
+
  if step == 0:
    pyautogui.moveTo(x+stepsize, y, duration=speed)
  elif step == 1:
