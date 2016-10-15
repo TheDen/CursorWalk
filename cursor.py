@@ -30,7 +30,9 @@ def startwalk(stepsize, speed):
     pyautogui.moveTo(x, y+stepsize, duration=speed)
   elif step == 3:
     pyautogui.moveTo(x, y-stepsize, duration=speed)
-  
+  if x-pyautogui.position()[0] > stepsize or y-pyautogui.position()[1] > stepsize:
+   break
+
 while True:
   x = pyautogui.position()[0]
   y = pyautogui.position()[1]
