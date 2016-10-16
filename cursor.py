@@ -8,7 +8,7 @@ pyautogui.FAILSAFE =  False
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-s', '--stepsize', default=10, type=int, help="pixel stepsize")
-parser.add_argument('-r', '--ratespeed', default=0.1, type=float, help="seconds between each pixel move")
+parser.add_argument('-r', '--ratespeed', default=0.2, type=float, help="seconds between each pixel move")
 parser.add_argument('-t', '--timeout', default=0, type=float, help="timeout for idle mouse to start random walk")
 
 args = parser.parse_args()
