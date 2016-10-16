@@ -11,7 +11,7 @@ pyautogui (https://github.com/asweigart/pyautogui)
 
 Install the packages `python3-Xlib` (or `python-Xlib` for python2), and `python-tk` before installing `pyautogui`.
 
-#### For OSX
+#### For macOS
 
 OS X needs the `pyobjc-core` and `pyobjc` modules installed (in that order).
 
