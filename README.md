@@ -9,13 +9,7 @@ pyautogui (https://github.com/asweigart/pyautogui)
 
 ``./cursorwalk.py``
 
-Runs with default options: 
-
-`stepsize = 10`
-
-`ratespeed = 0.2`
-
-`timeout = 0`
+Runs with default options: `stepsize = 10` `ratespeed = 0.2` `timeout = 0`
 
 ###Options
 
@@ -34,13 +28,9 @@ Runs with default options:
 
 ```
 
-Cursorwalk can be run as a screensaver-type serveice, i.e., with the timeout `-t` option, the random walk won't start until the mouse is idle for the amount of seconds given. If the mouse is moved by the user (outside the stepsize distance), the timeout will restart.
+Cursorwalk can be run as a screensaver-type service, i.e., with the timeout `-t` option. The random walk won't start until the mouse is idle for the amount of seconds given. If the mouse is moved by the user (greater than the stepsize distance), the timeout will restart.
 
 ###Example
 Run cursorwalk to move 20 pixels, with 0.2 seconds between each pixel, with a timeout of 15 minutes.
 
 `$ ./cursor.py -s 20 -r 0.2 -t 900`
-
-
-## Todo
-~~Add argument/getopts for `speed` and `stepsize` variables~~ Done and and added timeout option
