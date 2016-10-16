@@ -5,6 +5,20 @@ Random walk implementation on the mouse cursor, as a screensaver! (https://en.wi
 
 pyautogui (https://github.com/asweigart/pyautogui)
 
+`pip install pyautogui`
+
+####For Linux
+
+Install the packages `python3-Xlib` (or `python-Xlib` for python2), and `python-tk` before installing `pyautogui`.
+
+####For OSX
+
+OS X needs the `pyobjc-core` and `pyobjc` modules installed (in that order).
+
+####For Windows
+
+Windows does not need any dependecies for `pyautogui`
+
 ## Run
 
 ``./cursorwalk.py``
