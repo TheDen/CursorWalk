@@ -16,7 +16,7 @@ Runs with default options: `stepsize = 10` `ratespeed = 0.2` `timeout = 0`
 ```
 -s STEPSIZE, --stepsize STEPSIZE
 
-                         pixel stepsize
+                        pixel stepsize
 
 -r RATESPEED, --ratespeed RATESPEED
 
@@ -24,7 +24,7 @@ Runs with default options: `stepsize = 10` `ratespeed = 0.2` `timeout = 0`
                         
 -t TIMEOUT, --timeout TIMEOUT
 
-                        timeout for idle mouse to start random walk
+                        timeout for idle mouse to start random walk (seconds)
 
 ```
 
