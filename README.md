@@ -47,4 +47,4 @@ Cursorwalk can be run as a screensaver-type service, i.e., with the timeout `-t`
 #### Example
 Run cursorwalk to move 20 pixels, with 0.2 seconds between each pixel, with a timeout of 15 minutes.
 
-`$ ./cursor.py -s 20 -r 0.2 -t 900`
+`$ ./cursorwalk.py -s 20 -r 0.2 -t 900`
