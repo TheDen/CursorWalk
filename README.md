@@ -7,11 +7,11 @@ pyautogui (https://github.com/asweigart/pyautogui)
 
 `pip install pyautogui`
 
-####For Linux
+#### For Linux
 
 Install the packages `python3-Xlib` (or `python-Xlib` for python2), and `python-tk` before installing `pyautogui`.
 
-####For OSX
+#### For OSX
 
 OS X needs the `pyobjc-core` and `pyobjc` modules installed (in that order).
 
@@ -25,7 +25,7 @@ Windows does not need any dependecies for `pyautogui`
 
 Runs with default options: `stepsize = 10` `ratespeed = 0.2` `timeout = 0`
 
-###Options
+#### Options
 
 ```
 -s STEPSIZE, --stepsize STEPSIZE
@@ -44,7 +44,7 @@ Runs with default options: `stepsize = 10` `ratespeed = 0.2` `timeout = 0`
 
 Cursorwalk can be run as a screensaver-type service, i.e., with the timeout `-t` option. The random walk won't start until the mouse is idle for the amount of seconds given. If the mouse is moved by the user (greater than the stepsize distance), the timeout will restart.
 
-###Example
+#### Example
 Run cursorwalk to move 20 pixels, with 0.2 seconds between each pixel, with a timeout of 15 minutes.
 
 `$ ./cursor.py -s 20 -r 0.2 -t 900`
