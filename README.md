@@ -15,7 +15,7 @@ Install the packages `python3-Xlib` (or `python-Xlib` for python2), and `python-
 
 OS X needs the `pyobjc-core` and `pyobjc` modules installed (in that order).
 
-####For Windows
+#### For Windows
 
 Windows does not need any dependecies for `pyautogui`
 
