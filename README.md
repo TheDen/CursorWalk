@@ -35,7 +35,7 @@ Runs with default options: `stepsize = 10` `ratespeed = 0.2` `timeout = 0`
 -r RATESPEED, --ratespeed RATESPEED
 
                         seconds between each pixel move
-                        
+
 -t TIMEOUT, --timeout TIMEOUT
 
                         timeout for idle mouse to start random walk (seconds)
