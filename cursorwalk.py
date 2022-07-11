@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 
+import sys
+import signal
 import random
-import pyautogui
 import time
 import argparse
+import pyautogui
 
 pyautogui.FAILSAFE = False
 
@@ -47,7 +49,12 @@ def startwalk(stepsize, speed):
                 break
 
 
+def signal_handler(sig, frame):
+    sys.exit(0)
+
+
 def main():
+    signal.signal(signal.SIGINT, signal_handler)
     while True:
         x = pyautogui.position()[0]
         y = pyautogui.position()[1]
@@ -57,4 +64,5 @@ def main():
 
 
 if __name__ == "__main__":
+    signal.signal(signal.SIGINT, signal_handler)
     main()
